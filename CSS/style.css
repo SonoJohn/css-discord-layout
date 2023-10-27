@@ -5,7 +5,57 @@
     box-sizing: border-box;
 }
 
+
 /* HEADER */
+.header {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    /* DEBUG */
+    background-color: lightblue;
+}
+
+.header-section {
+    display: flex;
+    /* align-items: center; */
+    height: 40px;
+    width: 80%;
+    justify-content: space-between;
+    /* DEBUG */
+    background-color: burlywood;
+}
+
+/* HEADER LOGO */
+h2 {
+
+    min-width: 150px;
+    /* DEBUG */
+    border: 2px solid black;
+}
+
+/* HEADER MENU */
+.header-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    gap: 10px;
+    /* DEBUG */
+    border: 2px solid black;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* HEADER LOGIN */
+.header-login {
+    min-width: 150px;
+    text-align: right;
+    /* DEBUG */
+    border: 2px solid black;
+}
 
 /* MAIN */
 
