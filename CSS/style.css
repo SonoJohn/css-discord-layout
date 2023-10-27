@@ -20,7 +20,7 @@
     display: flex;
     /* align-items: center; */
     height: 40px;
-    width: 80%;
+    width: 60%;
     justify-content: space-between;
     /* DEBUG */
     background-color: burlywood;
@@ -28,7 +28,6 @@
 
 /* HEADER LOGO */
 h2 {
-
     min-width: 150px;
     /* DEBUG */
     border: 2px solid black;
@@ -58,5 +57,23 @@ li {
 }
 
 /* MAIN */
+
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    /* DEBUG */
+    background-color: blue;
+}
+
+.first-section {
+    height: 400px;
+    width: 50%;
+    align-self: center;
+    /* DEBUG */
+    background-color: violet;
+
+}
 
 /* FOOTER */
