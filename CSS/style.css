@@ -184,7 +184,21 @@ li {
     background-color: blueviolet;
 }
 
+.footer-containers {
+    width: 150px;
+    /* DEBUG */
+    background-color: aqua;
+    border: 1px solid white;
+}
+
+.socials {
+    flex-grow: 1;
+    /* DEBUG */
+    background-color: pink;
+}
+
 /* FOOTER */
 .footer {
     display: flex;
+
 }
