@@ -27,7 +27,7 @@
 }
 
 /* HEADER LOGO */
-h2 {
+.header-logo {
     min-width: 150px;
     /* DEBUG */
     border: 2px solid black;
