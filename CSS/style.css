@@ -165,4 +165,26 @@ li {
     background-color: green;
 }
 
+/* SIXTH SECTION */
+.details-section6 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    /* DEBUG */
+    background-color: rgb(20, 20, 58);
+}
+
+.sixth-section {
+    display: flex;
+    width: 60%;
+    height: 400px;
+    align-self: center;
+    /* DEBUG */
+    background-color: blueviolet;
+}
+
 /* FOOTER */
+.footer {
+    display: flex;
+}
